@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 import "./globals.css";
 import "./style.scss";
+import AmenitiesPopup from "@/components/pop-up/AmenitiesPopup";
 
 const jost = Jost({
   variable: "--font-jost",
@@ -71,6 +72,7 @@ export default function RootLayout({
           <Whatsapp whatsAppNumber={contact.phone[0]} />
           <Call callNumber={contact.phone[0]} />
           <ImagePopup />
+          <AmenitiesPopup />
         </WebProvider>
       </body>
     </html>

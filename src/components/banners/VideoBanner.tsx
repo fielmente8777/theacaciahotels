@@ -16,7 +16,7 @@ const VideoBanner: React.FC<VideoBannerProps> = ({
   return (
     <Section
       defaultPadding={false}
-      className="relative w-full lg:aspect-16/7.56 aspect-[4/2.7] "
+      className="relative w-full lg:aspect-[16/7.56] aspect-[4/2.7] overflow-hidden lg:rounded-b-4xl"
     >
       <LazyLoadedVideo src={video} poster={videoPoster} />
       <div className="absolute inset-0 z-10 bg-linear-to-b from-black/40 via-black/30 to-black/10" />

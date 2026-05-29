@@ -32,7 +32,7 @@ const LandingFooter = () => {
                   key={index}
                   target="_blank"
                   rel="noopener noreferrer"
-                  whatsAppIcon={index === 0 && true}
+                  callIcon={index === 0 && true}
                   calendarIcon={index === 1 && true}
                   className={`rounded-sm justify-center max-md:w-full border-none uppercase tracking-widest text-xs bg-secondary text-white`}
                 />

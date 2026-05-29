@@ -9,15 +9,13 @@ import {
   SleepsIcon,
   SpaIcon,
   SQFTIcon,
-  SquareIcon,
   SwimIcon,
-  WifiIcon,
+  WifiIcon
 } from "@/utils/icons";
-import { Md10K } from "react-icons/md";
 
 export const landingPageData = {
   bannerSection: {
-    video: "/Acacia-Morjim-Promo-HIGH-FHD.mp4",
+    video: "/Acacia-Video-Trimmed.mp4",
     videoPoster: "/landing-page/poster.png",
     title: "The Acacia Morjim Goa",
   },
@@ -55,6 +53,37 @@ export const landingPageData = {
           { icon: <SleepsIcon />, text: "SLEEPS 2" },
           { icon: <SQFTIcon />, text: "320 SQ FT" },
         ],
+        amenitiesPopup: [
+          {
+            amenityType: "Room Features",
+            amenities: [
+              "Audible Smoke Alarms",
+              "Satellite TV",
+              "King/Twin Bed",
+              "Laundry",
+              "Dry Cleaning",
+              "Private Balcony",
+              "Smoking / Non Smoking Rooms",
+              "Coffee/Tea Preparing Facilities",
+              "Air Conditioning",
+              "Mini Bar",
+              "Entertainment System",
+              "Personal Electronic Safe",
+              "Concierge Service",
+              "In Room Telephone",
+              "Wake Up Call Service",
+            ],
+          },
+          {
+            amenityType: "Bathroom Amenities",
+            amenities: [
+              "Grohe Therma Controlled Shower Heads",
+              "Hair Dryers",
+              "Bathrobes & Slippers",
+              "Telephone",
+            ],
+          },
+        ],
         description:
           "A room of spectacular opulence with plush interiors and a balcony with abundant space. The room boasts of an independent living room with complimentary Wi-Fi, two LCD TVs, hair dryer, safe, iron, tea/coffee maker, a separate work area and bath wear essentials.",
         price: "From ₹6,800 / night",
@@ -73,6 +102,37 @@ export const landingPageData = {
           { icon: <SleepsIcon />, text: "SLEEPS 2" },
           { icon: <SQFTIcon />, text: "240 SQ FT" },
         ],
+        amenitiesPopup: [
+          {
+            amenityType: "Room Features",
+            amenities: [
+              "Audible Smoke Alarms",
+              "Satellite TV",
+              "King/Twin Bed",
+              "Laundry",
+              "Dry Cleaning",
+              "Private Balcony",
+              "Smoking / Non Smoking Rooms",
+              "Coffee/Tea Preparing Facilities",
+              "Air Conditioning",
+              "Mini Bar",
+              "Entertainment System",
+              "Personal Electronic Safe",
+              "Concierge Service",
+              "In Room Telephone",
+              "Wake Up Call Service",
+            ],
+          },
+          {
+            amenityType: "Bathroom Amenities",
+            amenities: [
+              "Grohe Therma Controlled Shower Heads",
+              "Hair Dryers",
+              "Bathrobes & Slippers",
+              "Telephone",
+            ],
+          },
+        ],
         description:
           "A room of spectacular opulence with plush interiors and a balcony with abundant space. The room boasts of an independent living room with complimentary Wi-Fi, two LCD TVs, hair dryer, safe, iron, tea/coffee maker, a separate work area and bath wear essentials.",
         price: "From ₹4,800 / night",
@@ -90,6 +150,37 @@ export const landingPageData = {
           { icon: <BedIcon />, text: "1 KING BED" },
           { icon: <SleepsIcon />, text: "SLEEPS 2" },
           { icon: <SQFTIcon />, text: "220 SQ FT" },
+        ],
+        amenitiesPopup: [
+          {
+            amenityType: "Room Features",
+            amenities: [
+              "Audible Smoke Alarms",
+              "Satellite TV",
+              "King/Twin Bed",
+              "Laundry",
+              "Dry Cleaning",
+              "Private Balcony",
+              "Smoking / Non Smoking Rooms",
+              "Coffee/Tea Preparing Facilities",
+              "Air Conditioning",
+              "Mini Bar",
+              "Entertainment System",
+              "Personal Electronic Safe",
+              "Concierge Service",
+              "In Room Telephone",
+              "Wake Up Call Service",
+            ],
+          },
+          {
+            amenityType: "Bathroom Amenities",
+            amenities: [
+              "Grohe Therma Controlled Shower Heads",
+              "Hair Dryers",
+              "Bathrobes & Slippers",
+              "Telephone",
+            ],
+          },
         ],
         description:
           "Comfortable and spacious with a king-sized or twin bed option, the superior room features a separate work area, Wi-Fi, LCD TV, hair dryer, safe, iron and tea/coffee maker. Step onto the balcony to unwind comfortably with an evening beer or enjoy tea.",

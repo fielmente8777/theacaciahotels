@@ -10,6 +10,10 @@ export interface ExploreRoomsProps {
       icon: JSX.Element;
       text: string;
     }[];
+    amenitiesPopup: {
+      amenityType: string;
+      amenities: string[];
+    }[];
     description: string;
     price: string;
     buttons: {

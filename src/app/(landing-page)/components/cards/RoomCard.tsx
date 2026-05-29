@@ -1,6 +1,6 @@
 import { ExploreRoomsProps } from "@/@types/type";
 import LinkButton from "@/components/buttons/LinkButton";
-import { Span } from "next/dist/trace";
+import AmenityPopUpButton from "@/components/pop-up/AmenityPopUpButton";
 import Image from "next/image";
 
 const RoomCard: React.FC<ExploreRoomsProps["cards"][0]> = ({
@@ -10,6 +10,7 @@ const RoomCard: React.FC<ExploreRoomsProps["cards"][0]> = ({
   images,
   price,
   title,
+  amenitiesPopup,
 }) => {
   return (
     <div>
@@ -34,12 +35,15 @@ const RoomCard: React.FC<ExploreRoomsProps["cards"][0]> = ({
         </ul>
         <p>{description}</p>
         <div className="flex justify-between items-center">
-          <p className="">{price}</p>
-          <button>Room Amenities</button>
+          <p className="font-bold lg:text-lg">{price}</p>
+          <AmenityPopUpButton
+            amenities={amenitiesPopup}
+            label="Room Amenities"
+          />
         </div>
         <ul className="grid lg:grid-cols-2 gap-4">
           {buttons.map((button, i) => (
-            <li key={i} >
+            <li key={i}>
               <LinkButton
                 {...button}
                 target="_blank"
