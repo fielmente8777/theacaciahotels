@@ -46,7 +46,7 @@ interface WebsiteFooterData {
 }
 
 export const footerData: FooterData = {
-  logo: "/logo.png",
+  logo: "/Logo.png",
   cta: [
     {
       label: "call now",

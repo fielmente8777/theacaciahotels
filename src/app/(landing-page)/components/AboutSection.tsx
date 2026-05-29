@@ -48,7 +48,7 @@ const AboutSection: React.FC<Props> = ({
             </p>
           ))}
         </div>
-        <ul className="flex flex-wrap lg:gap-4 gap-2 items-center  justify-center">
+        <ul className="flex flex-wrap lg:gap-4 gap-2 items-center  max-md:justify-center">
           {buttons.map((button, i) => (
             <li key={i} className="">
               <LinkButton

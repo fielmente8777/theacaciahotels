@@ -1,7 +1,7 @@
 import { contact } from "@/utils/constent";
 
 export const navData = {
-  logo: "/logo.png",
+  logo: "/Logo.png",
 
   buttons: [
     { label: "CALL NOW", href: contact.callCta },

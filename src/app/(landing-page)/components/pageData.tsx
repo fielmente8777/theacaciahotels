@@ -169,7 +169,7 @@ export const landingPageData = {
   },
 
   spa: {
-    image: "/landing-page/spa.jpg",
+    image: "/landing-page/Spa.jpg",
     logo: "/landing-page/spa-logo.png",
     description: [
       "Pamper your mind, body and soul at the Spa Acacia and choose from a diverse range of body treatments to rejuvenate.",
