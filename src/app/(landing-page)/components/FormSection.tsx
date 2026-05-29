@@ -29,7 +29,7 @@ const FormSection: React.FC<FormSectionProps> = ({
         <SectionHeading title={title} textCenter />
         <p>{subtitle}</p>
       </Container>
-      <Container className="bg-primary p-4 rounded-tl-xl rounded-br-xl mt-6 rounded-bl-4xl rounded-tr-4xl">
+      <Container className="bg-primary p-4 rounded-tl-xl rounded-br-xl mt-6 rounded-bl-4xl rounded-tr-4xl" id="form">
         <Form1 />
       </Container>
     </Section>
