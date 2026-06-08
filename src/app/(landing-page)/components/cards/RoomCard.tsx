@@ -46,7 +46,7 @@ const RoomCard: React.FC<ExploreRoomsProps["cards"][0]> = ({
             <li key={i}>
               <LinkButton
                 {...button}
-                target="_blank"
+                target={i !== 1 ? "_blank" : "_self"}
                 rel="noopener noreferrer"
                 className="bg-primary border-none rounded-sm w-full justify-center"
                 whatsAppIcon={i === 0}

@@ -14,8 +14,8 @@ export const contact = {
   addressLink: "",
   socialMedia: {
     facebook: "https://www.facebook.com/theacaciahotels",
-    instagram: "https://www.instagram.com/acaciahotels",
-    linkedin: "",
+    instagram: "https://www.instagram.com/acaciamorjim/",
+    youtube: "https://www.youtube.com/@TheAcaciaHotelsandVillas",
   },
   callCta: `tel:+918326714705`,
   WhatsappCta: `https://wa.me/+918326714705?text=${enCodeText}`,

@@ -20,7 +20,7 @@ export default function ThankYou() {
             We will get back to you shortly!
           </h1>
           <LinkButton
-            href="/landing-page/"
+            href="/"
             label="Back to Home"
             className="w-fit mx-auto rounded-full"
           />

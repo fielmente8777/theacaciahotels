@@ -11,13 +11,13 @@ const LandingNavbar = () => {
         <div className="flex py-4 w-full items-center justify-between">
           {/* LOGO */}
           <Link href="/">
-            <div className="relative h-10 w-32 md:h-12 md:w-44">
+            <div className="relative lg:aspect-4/1.25 w-32 md:w-44">
               <Image
                 src={navData.logo}
-                alt="The Rudraksh Retreat"
+                alt="The Acacia Hotel Logo"
                 fill
                 priority
-                className="object-contain"
+                className="object-cover rounded-md"
               />
             </div>
           </Link>

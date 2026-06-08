@@ -9,6 +9,7 @@ import Spa from "./components/Spa";
 import { landingPageData } from "./components/pageData";
 import FormSection from "./components/FormSection";
 import LandingFooter from "@/components/footer/LandingFooter";
+import LuxuryCottages from "./components/LuxuryCottages";
 
 export default function LandingPage() {
   return (
@@ -17,6 +18,7 @@ export default function LandingPage() {
       <FormSection {...landingPageData.formSection} />
       <AboutSection {...landingPageData.about} />
       <ExploreRooms {...landingPageData.rooms} />
+      <LuxuryCottages {...landingPageData.luxuryCottages} />
       <Amenities {...landingPageData.amenities} />
       <Gallery {...landingPageData.gallery} />
       <Spa {...landingPageData.spa} />

@@ -10,7 +10,7 @@ import {
   SpaIcon,
   SQFTIcon,
   SwimIcon,
-  WifiIcon
+  WifiIcon,
 } from "@/utils/icons";
 
 export const landingPageData = {
@@ -19,6 +19,7 @@ export const landingPageData = {
     videoPoster: "/landing-page/poster.png",
     title: "The Acacia Morjim Goa",
   },
+
   formSection: {
     location: "Morjim, Goa",
     title: "Enjoy a 10% Discount on Direct Bookings!",
@@ -34,8 +35,8 @@ export const landingPageData = {
     ],
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
-      { label: "ENQUIRE NOW", href: "#form" },
-      { label: "BOOK NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "BOOK NOW", href: "#form" },
     ],
   },
 
@@ -193,6 +194,21 @@ export const landingPageData = {
     ],
   },
 
+  luxuryCottages: {
+    title: "New Luxury Cottages",
+    description:
+      "Introducing our newest wing of exotic luxury cottages where refined comfort meets breathtaking serenity.",
+    images: [
+      "/landing-page/NEW-LUXURY-COTTAGE.png",
+      "/landing-page/NEW-LUXURY-COTTAGE-2.png",
+      "/landing-page/NEW-LUXURY-COTTAGE-3.png",
+    ],
+    buttons: [
+      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "BOOK NOW", href: "#form" },
+    ],
+  },
+
   amenities: {
     title: "Acacia Amenities",
     cards: [
@@ -207,8 +223,8 @@ export const landingPageData = {
     ],
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
-      { label: "ENQUIRE NOW", href: "#form" },
-      { label: "BOOK NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "BOOK NOW", href: "#form" },
     ],
   },
 
@@ -218,6 +234,13 @@ export const landingPageData = {
       "/landing-page/1-IMG_7501.jpg",
       "/landing-page/23.jpg",
       "/landing-page/26-IMG_8284.jpg",
+      "/im-1.jpeg",
+      "/im-2.jpeg",
+      "/im-3.jpeg",
+      "/im-4.jpeg",
+      "/im-5.jpeg",
+      "/im-6.jpeg",
+      "/im-7.jpeg",
       "/landing-page/26.jpg",
       "/landing-page/BAR.jpg",
       "/landing-page/Breakfast.jpg",
@@ -254,8 +277,8 @@ export const landingPageData = {
     ],
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
-      { label: "ENQUIRE NOW", href: "#form" },
-      { label: "BOOK NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "BOOK NOW", href: "#form" },
     ],
   },
 
@@ -272,8 +295,8 @@ export const landingPageData = {
 
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
-      { label: "ENQUIRE NOW", href: "#form" },
-      { label: "BOOK NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "BOOK NOW", href: "#form" },
     ],
   },
 
@@ -283,14 +306,14 @@ export const landingPageData = {
     places: [
       { image: "/landing-page/attraction-1.png", name: "Ashwem Beach" },
       { image: "/landing-page/attraction-2.png", name: "Chapora Fort" },
-      { image: "/landing-page/attraction-3.png", name: "Fort Aguada" },
+      { image: "/landing-page/attraction-3.jpg", name: "Arambol Beach" },
       { image: "/landing-page/attraction-4.png", name: "Morjim Beach" },
     ],
 
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
-      { label: "ENQUIRE NOW", href: "#form" },
-      { label: "BOOK NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "BOOK NOW", href: "#form" },
     ],
   },
 

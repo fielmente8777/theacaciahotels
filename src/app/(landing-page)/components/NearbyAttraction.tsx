@@ -20,12 +20,12 @@ const NearbyAttraction: React.FC<NearbyAttractionProps> = ({
         </div>
         <ul className="flex flex-wrap lg:gap-4 gap-2 items-center  justify-center">
           {buttons.map((button, i) => (
-            <li key={i} className="">
+            <li key={i} className="max-md:w-full">
               <LinkButton
                 {...button}
-                target="_blank"
+                target={i !== 2 ? "_blank" : "_self"}
                 rel="noopener noreferrer"
-                className="bg-primary border-none rounded-sm"
+                className="bg-primary border-none rounded-sm max-md:w-full justify-center"
                 whatsAppIcon={i === 1}
                 callIcon={i === 0}
                 calendarIcon={i === 2}
