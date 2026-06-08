@@ -182,7 +182,7 @@ const Form1 = ({ gridView }: Props) => {
       ))}
       <button
         type="submit"
-        className=" bg-secondary w-full rounded-sm text-white text-lg py-3"
+        className=" bg-secondary w-full rounded-sm text-white text-lg py-2 lg:py-3"
       >
         {isSubmitting ? (
           "Submitting..."
