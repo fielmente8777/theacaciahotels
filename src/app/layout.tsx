@@ -8,6 +8,7 @@ import { Jost } from "next/font/google";
 import "./globals.css";
 import "./style.scss";
 import AmenitiesPopup from "@/components/pop-up/AmenitiesPopup";
+import Script from "next/script";
 
 const jost = Jost({
   variable: "--font-jost",
@@ -74,6 +75,19 @@ export default function RootLayout({
           <ImagePopup />
           <AmenitiesPopup />
         </WebProvider>
+        {/* <!-- Eazbot Script (Next.js) --> */}
+        <Script id="chatbot-config" strategy="afterInteractive">
+          {`
+            window.eazbotConfig = {
+              ndid: "89a12ffb-e4b7-41a7-869c-1af0eacc76c7",
+              hid: "79374052",
+            };
+          `}
+        </Script>
+        <Script
+          src="https://cb-script.dyq28lyxrazm2.amplifyapp.com/widget/lead-chatbot.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

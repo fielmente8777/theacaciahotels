@@ -17,10 +17,10 @@ export const contact = {
     instagram: "https://www.instagram.com/acaciamorjim/",
     youtube: "https://www.youtube.com/@TheAcaciaHotelsandVillas",
   },
-  callCta: `tel:+918326714705`,
-  WhatsappCta: `https://wa.me/+918326714705?text=${enCodeText}`,
-  // formDomain: "theacaciahotels",
-  formDomain: "testmulti", //for testing
+  callCta: `tel:+917888069977`,
+  WhatsappCta: `https://wa.me/+917888069977?text=${enCodeText}`,
+  formDomain: "acaciahotel",
+  // formDomain: "testmulti", //for testing
   formHid: "",
   // formHid: "",
 };

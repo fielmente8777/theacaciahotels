@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import LazyLoadedMap from "../map/LazyLoadedMap";
 import { Container } from "../sectionComponants";
-import { footerData } from "./footerdata";
+import { footerData, socialData } from "./footerdata";
 import LinkButton from "../buttons/LinkButton";
 
 const LandingFooter = () => {
@@ -24,7 +24,7 @@ const LandingFooter = () => {
                 className="object-contain"
               />
             </div>
-            <div className="flex max-md:flex-col md:gap-4 gap-2 items-center justify-center">
+            <div className="flex max-md:flex-col md:gap-4 gap-2 items-center max-md:justify-center">
               {footerData.cta.map((item, index) => (
                 <LinkButton
                   label={item.label}
@@ -38,6 +38,22 @@ const LandingFooter = () => {
                 />
               ))}
             </div>
+
+            <ul className="flex items-center max-md:justify-center gap-4">
+              {socialData.map((item, index) => (
+                <li key={index}>
+                  <Link
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={item.label}
+                    className="w-10 aspect-square rounded-sm flex items-center justify-center bg-white text-primary transition-all hover:opacity-90"
+                  >
+                    {item.icon}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {footerData.lists.map((list, index) => (
@@ -123,21 +139,21 @@ const LandingFooter = () => {
         </div>
       </Container>
       <div className="bg-[#3A3939]">
-      <Container className="py-4 flex max-md:flex-col items-center gap-3.5 justify-between">
-        <div className="md:flex max-md:space-x-2 text-center flex-wrap items-center justify-center gap-2 text-white text-sm">
-          © 2026 THE ACACIA HOTELS. A UNIT OF PALMYRA RESORT PVT LTD.
-        </div>
-        <p className="text-white!">
-          Powered by{" "}
-          <Link
-            href="https://www.fielmente.com/"
-            className="font-bold"
-            target="_blank"
-          >
-            Fielmente
-          </Link>
-        </p>
-      </Container>
+        <Container className="py-4 flex max-md:flex-col items-center gap-3.5 justify-between">
+          <div className="md:flex max-md:space-x-2 text-center flex-wrap items-center justify-center gap-2 text-white text-sm">
+            © 2026 THE ACACIA HOTELS. A UNIT OF PALMYRA RESORT PVT LTD.
+          </div>
+          <p className="text-white!">
+            Powered by{" "}
+            <Link
+              href="https://www.fielmente.com/"
+              className="font-bold"
+              target="_blank"
+            >
+              Fielmente
+            </Link>
+          </p>
+        </Container>
       </div>
     </footer>
   );

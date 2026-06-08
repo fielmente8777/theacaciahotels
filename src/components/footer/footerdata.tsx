@@ -45,6 +45,24 @@ interface WebsiteFooterData {
   }[];
 }
 
+export const socialData = [
+  {
+    icon: <FillFaceBookIcon />,
+    href: contact.socialMedia.facebook,
+    label: "Facebook",
+  },
+  {
+    icon: <OutLineInstagramIcon />,
+    href: contact.socialMedia.instagram,
+    label: "Instagram",
+  },
+  {
+    icon: <YouTube />,
+    href: contact.socialMedia.youtube,
+    label: "YouTube",
+  },
+];
+
 export const footerData: FooterData = {
   logo: "/Logo.png",
   cta: [
@@ -80,6 +98,7 @@ export const footerData: FooterData = {
     },
   ],
 };
+
 export const websiteFooterData: WebsiteFooterData = {
   logo: "/footerlogo2.png",
   description: "Reserve Himalayan escape!",
@@ -147,7 +166,6 @@ export const websiteFooterData: WebsiteFooterData = {
           href: contact.socialMedia.instagram,
           icon: <OutLineInstagramIcon />,
         },
-        
       ],
     },
   ],
