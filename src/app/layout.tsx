@@ -64,6 +64,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="MfTU1p7E3cgBqPya-J2xqN77IfwdNrOBgNtl8CBbMr4"
+        />
+        <Script
+          strategy="afterInteractive"
+          id="google-analytics"
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-1W5EZ5KY14"
+        ></Script>
+        <Script strategy="afterInteractive" id="google-analytics-config">
+          {` window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-1W5EZ5KY14');`}
+        </Script>
+      </head>
+
       <body
         className={` ${jost.variable} h-full antialiased`}
         suppressHydrationWarning={true}
