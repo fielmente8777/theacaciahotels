@@ -34,27 +34,27 @@ const RoomCard: React.FC<ExploreRoomsProps["cards"][0]> = ({
           ))}
         </ul>
         <p>{description}</p>
-        <div className="flex justify-between items-center">
-          <p className="font-bold lg:text-lg">{price}</p>
+        <div className="flex flex-col gap-4 justify-between items-center">
+          {/* <p className="font-bold lg:text-lg">{price}</p> */}
+
           <AmenityPopUpButton
             amenities={amenitiesPopup}
             label="Room Amenities"
           />
+          <ul className="w-full gap-4">
+            {buttons.map((button, i) => (
+              <li key={i}>
+                <LinkButton
+                  {...button}
+                  target={i !== 1 ? "_blank" : "_self"}
+                  rel="noopener noreferrer"
+                  className="bg-primary  text-nowrap border-none rounded-sm w-full justify-center"
+                  callIcon={i === 0}
+                />
+              </li>
+            ))}
+          </ul>
         </div>
-        <ul className="grid lg:grid-cols-2 gap-4">
-          {buttons.map((button, i) => (
-            <li key={i}>
-              <LinkButton
-                {...button}
-                target={i !== 1 ? "_blank" : "_self"}
-                rel="noopener noreferrer"
-                className="bg-primary border-none rounded-sm w-full justify-center"
-                whatsAppIcon={i === 0}
-                calendarIcon={i === 1}
-              />
-            </li>
-          ))}
-        </ul>
       </div>
     </div>
   );
