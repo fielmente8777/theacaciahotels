@@ -72,7 +72,7 @@ export const footerData: FooterData = {
     },
     {
       label: "Book your stay",
-      href: contact.WhatsappCta,
+      href:  "whatsapp",
     },
   ],
   lists: [

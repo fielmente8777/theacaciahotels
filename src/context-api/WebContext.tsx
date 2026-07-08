@@ -32,6 +32,8 @@ interface WebContextType {
   openGallery: ({ images, index }: OpenGalleryProps) => void;
 
   closeGallery: () => void;
+
+  WhatsAppClick: () => Promise<void>;
 }
 
 const WebContext = createContext<WebContextType>({
@@ -56,6 +58,8 @@ const WebContext = createContext<WebContextType>({
   openGallery: () => {},
 
   closeGallery: () => {},
+
+  WhatsAppClick: () => Promise.resolve(),
 });
 
 interface WebProviderProps {
@@ -91,9 +95,48 @@ export const WebProvider = ({ children }: WebProviderProps) => {
     setImageCurrentIndex(0);
   };
 
+
+   const WhatsAppClick = async () => {
+    const enCodedText =
+    "Hello Team, I would like to enquire about booking a stay at The Acacia Morjim Goa. Please share room availability and best offers. Thank you.";
+    try {
+      const payload = {
+        widget: "whatsapp",
+        ndid: "e50d8dc6-4cfc-4c87-b6c0-145ccdeb4121",
+        hid: "56369483",
+        pageUrl: window.location.href,
+        websiteName: window.location.hostname,
+        phoneNumber: "+917410112893",
+        message: enCodedText,
+      };
+
+      const response = await fetch(
+        "https://gian-1eve.onrender.com/api/v1/widget/click",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        }
+      );
+
+      const data = await response.json();
+      const whatsappUrl = data?.result?.doc?.whatsappUrl;
+
+      if (whatsappUrl) {
+        window.open(whatsappUrl, "_blank");
+      }
+    } catch (error) {
+      console.error("WhatsApp Click Error:", error);
+    }
+  };
+
   return (
     <WebContext.Provider
       value={{
+        WhatsAppClick,
+        
         isOpenNavBar,
         setIsOpenNavBar,
 

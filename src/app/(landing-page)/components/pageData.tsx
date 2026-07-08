@@ -35,7 +35,7 @@ export const landingPageData = {
     ],
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
-      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: "whatsapp" },
       { label: "BOOK NOW", href: "#form" },
     ],
   },
@@ -93,7 +93,7 @@ export const landingPageData = {
           "A room of spectacular opulence with plush interiors and a balcony with abundant space. The room boasts of an independent living room with complimentary Wi-Fi, two LCD TVs, hair dryer, safe, iron, tea/coffee maker, a separate work area and bath wear essentials.",
         price: "From ₹6,800 / night",
         buttons: [
-          // { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+          // { label: "ENQUIRE NOW", href: "whatsapp" },
           // { label: "BOOK NOW", href: "#form" },
           { label: "Call For Exclusive Offers", href: contact.callCta },
         ],
@@ -147,7 +147,7 @@ export const landingPageData = {
           "A room of spectacular opulence with plush interiors and a balcony with abundant space. The room boasts of an independent living room with complimentary Wi-Fi, two LCD TVs, hair dryer, safe, iron, tea/coffee maker, a separate work area and bath wear essentials.",
         price: "From ₹4,800 / night",
         buttons: [
-          // { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+          // { label: "ENQUIRE NOW", href: "whatsapp" },
           // { label: "BOOK NOW", href: "#form" },
           { label: "Call For Exclusive Offers", href: contact.callCta },
         ],
@@ -201,7 +201,7 @@ export const landingPageData = {
           "Comfortable and spacious with a king-sized or twin bed option, the superior room features a separate work area, Wi-Fi, LCD TV, hair dryer, safe, iron and tea/coffee maker. Step onto the balcony to unwind comfortably with an evening beer or enjoy tea.",
         price: "From ₹4,600 / night",
         buttons: [
-          // { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+          // { label: "ENQUIRE NOW", href: "whatsapp" },
           // { label: "BOOK NOW", href: "#form" },
           { label: "Call For Exclusive Offers", href: contact.callCta },
         ],
@@ -223,7 +223,7 @@ export const landingPageData = {
       // "/im-6.jpeg",
     ],
     buttons: [
-      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: "whatsapp" },
       { label: "BOOK NOW", href: "#form" },
     ],
   },
@@ -242,7 +242,7 @@ export const landingPageData = {
     ],
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
-      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: "whatsapp" },
       { label: "BOOK NOW", href: "#form" },
     ],
   },
@@ -298,7 +298,7 @@ export const landingPageData = {
     ],
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
-      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: "whatsapp" },
       { label: "BOOK NOW", href: "#form" },
     ],
   },
@@ -316,7 +316,7 @@ export const landingPageData = {
 
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
-      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: "whatsapp" },
       { label: "BOOK NOW", href: "#form" },
     ],
   },
@@ -333,7 +333,7 @@ export const landingPageData = {
 
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
-      { label: "ENQUIRE NOW", href: contact.WhatsappCta },
+      { label: "ENQUIRE NOW", href: "whatsapp" },
       { label: "BOOK NOW", href: "#form" },
     ],
   },

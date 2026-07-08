@@ -1,3 +1,5 @@
+"use client";
+import { useWebContext } from "@/context-api/WebContext";
 import Link from "next/link";
 interface LinkButtonProps {
   href: string;
@@ -23,25 +25,49 @@ const LinkButton: React.FC<LinkButtonProps> = ({
   calendarIcon = false,
   ...props
 }) => {
+  const {WhatsAppClick} = useWebContext();    
   return (
-    <Link
-      href={href}
-      className={`flex items-center gap-2 border w-fit px-4 py-2 hover:scale-95 transition-all duration-300 ease-in-out hover:scale-x-105 active:scale-95 ${className}`}
-      {...props}
-    >
-      {whatsAppIcon && <WhatsAppIcon />}
-      {callIcon && <CallIcon />}
-      {calendarIcon && <CalendarIcon />}
-      {label}
+    <>
+      {href === "whatsapp" ? (
+        <button
+          onClick={WhatsAppClick}
+          className={`flex items-center gap-2 border w-fit px-4 py-2 hover:scale-95 transition-all duration-300 ease-in-out hover:scale-x-105 active:scale-95 ${className}`}
+          {...props}
+        >
+          {whatsAppIcon && <WhatsAppIcon />}
+          {callIcon && <CallIcon />}
+          {calendarIcon && <CalendarIcon />}
+          {label}
 
-      {arrowIcon && (
-        <span>
-          <ArrowIcon />
-        </span>
+          {arrowIcon && (
+            <span>
+              <ArrowIcon />
+            </span>
+          )}
+
+          {/* {getDirectionIcon && <GetDirections />}  */}
+        </button>
+      ) : (
+        <Link
+          href={href}
+          className={`flex items-center gap-2 border w-fit px-4 py-2 hover:scale-95 transition-all duration-300 ease-in-out hover:scale-x-105 active:scale-95 ${className}`}
+          {...props}
+        >
+          {whatsAppIcon && <WhatsAppIcon />}
+          {callIcon && <CallIcon />}
+          {calendarIcon && <CalendarIcon />}
+          {label}
+
+          {arrowIcon && (
+            <span>
+              <ArrowIcon />
+            </span>
+          )}
+
+          {/* {getDirectionIcon && <GetDirections />}  */}
+        </Link>
       )}
-
-      {/* {getDirectionIcon && <GetDirections />}  */}
-    </Link>
+    </>
   );
 };
 

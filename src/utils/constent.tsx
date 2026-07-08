@@ -9,7 +9,7 @@ Thank you.`);
 export const contact = {
   email: "reservations@theacaciahotels.com",
   mapUrl: "",
-  phone: ["+91 78880 69977"],
+  phone: ["+91 78880 69977","+917447708848"],
   address: "H.No 737, Main Morjim-Ashvem Road, Goa – 403512",
   addressLink: "",
   socialMedia: {
@@ -18,7 +18,7 @@ export const contact = {
     youtube: "https://www.youtube.com/@TheAcaciaHotelsandVillas",
   },
   callCta: `tel:+917888069977`,
-  WhatsappCta: `https://wa.me/+917888069977?text=${enCodeText}`,
+  WhatsappCta: `https://wa.me/+917447708848?text=${enCodeText}`,
   formDomain: "acaciahotel",
   // formDomain: "testmulti", //for testing
   formHid: "",
