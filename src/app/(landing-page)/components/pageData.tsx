@@ -47,7 +47,11 @@ export const landingPageData = {
 
     cards: [
       {
-        images: ["/landing-page/DELUXE-ROOM.jpg"],
+        images: [
+          "/landing-page/DELUXE-ROOM.jpg",
+          "/landing-page/deluxe1.jpg",
+          "/landing-page/deluxe2.jpg",
+        ],
         title: "Deluxe Room",
         amenities: [
           { icon: <BedIcon />, text: "1 KING BED" },
@@ -96,7 +100,11 @@ export const landingPageData = {
       },
 
       {
-        images: ["/landing-page/SUPERIOR-CLASSIC.jpg"],
+        images: [
+          "/landing-page/SUPERIOR-CLASSIC.jpg",
+          "/landing-page/superior1.jpg",
+          "/landing-page/superior2.jpg",
+        ],
 
         title: "Superior Room",
         amenities: [
@@ -146,7 +154,11 @@ export const landingPageData = {
       },
 
       {
-        images: ["/landing-page/SUPERIOR-.jpg"],
+        images: [
+          "/landing-page/premier1.jpg",
+          "/landing-page/premier2.jpg",
+          
+        ],
 
         title: "Premier Room",
         amenities: [
@@ -198,13 +210,17 @@ export const landingPageData = {
   },
 
   luxuryCottages: {
-    title: "New Luxury Cottages",
+    title: "Introducing Our New Luxury Cottages!",
     description:
       "Introducing our newest wing of exotic luxury cottages where refined comfort meets breathtaking serenity.",
     images: [
       "/landing-page/NEW-LUXURY-COTTAGE.png",
       "/landing-page/NEW-LUXURY-COTTAGE-2.png",
       "/landing-page/NEW-LUXURY-COTTAGE-3.png",
+      "/im-2.jpeg",
+      "/im-3.jpeg",
+      // "/im-4.jpeg",
+      // "/im-6.jpeg",
     ],
     buttons: [
       { label: "ENQUIRE NOW", href: contact.WhatsappCta },
@@ -234,23 +250,27 @@ export const landingPageData = {
   gallery: {
     title: "Gallery",
     images: [
+      "/landing-page/Jacuzzi.jpg",
+      "/landing-page/SPA-1.jpg",
+      "/landing-page/Spa-Acacia.jpg",
+      "/landing-page/Spa.jpg",
       "/landing-page/1-IMG_7501.jpg",
       "/landing-page/23.jpg",
       "/landing-page/26-IMG_8284.jpg",
       "/im-1.jpeg",
-      "/im-2.jpeg",
-      "/im-3.jpeg",
-      "/im-4.jpeg",
-      "/im-5.jpeg",
-      "/im-6.jpeg",
-      "/im-7.jpeg",
+      // "/im-2.jpeg",
+      // "/im-3.jpeg",
+      // "/im-4.jpeg",
+      // "/im-5.jpeg",
+      // "/im-6.jpeg",
+      // "/im-7.jpeg",
       "/landing-page/26.jpg",
       "/landing-page/BAR.jpg",
       "/landing-page/Breakfast.jpg",
       "/landing-page/COVER.jpg",
-      "/landing-page/DELUXE---VIEW.jpg",
+      // "/landing-page/DELUXE---VIEW.jpg",
       "/landing-page/DELUXE-BATHROOM.jpg",
-      "/landing-page/DELUXE-ROOM.jpg",
+      // "/landing-page/DELUXE-ROOM.jpg",
       "/landing-page/FACADE.jpg",
       "/landing-page/IMG_7461.jpg",
       "/landing-page/IMG_9130.jpg",
@@ -259,24 +279,22 @@ export const landingPageData = {
       "/landing-page/IMG_9155.jpg",
       "/landing-page/IMG_9158.jpg",
       "/landing-page/Infinity-Pool-with-a-view.jpg",
-      "/landing-page/Jacuzzi.jpg",
+
       "/landing-page/Lobby.jpg",
       "/landing-page/Pool---Outdoor-Seating.jpg",
       "/landing-page/poster.png",
-      "/landing-page/Rectangle-34.png",
-      "/landing-page/Rectangle-624321.png",
+      // "/landing-page/Rectangle-34.png",
+      // "/landing-page/Rectangle-624321.png",
       "/landing-page/Rectangle-82.png",
       "/landing-page/Restaurant-Upper-Deck-.jpg",
-      "/landing-page/SPA-1.jpg",
-      "/landing-page/Spa-Acacia.jpg",
-      "/landing-page/Spa.jpg",
-      "/landing-page/SUPERIOR-.jpg",
+
+      // "/landing-page/SUPERIOR-.jpg",
       "/landing-page/superior-bathroom.jpg",
-      "/landing-page/SUPERIOR-CLASSIC.jpg",
+      // "/landing-page/SUPERIOR-CLASSIC.jpg",
       "/landing-page/Swimming-Pool.jpg",
       "/landing-page/Toast.jpg",
-      "/landing-page/TWIN-ROOM.jpg",
-      "/landing-page/TWIN.jpg",
+      // "/landing-page/TWIN-ROOM.jpg",
+      // "/landing-page/TWIN.jpg",
     ],
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
