@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext, useState } from "react";
+import { contact } from "../utils/constent";
 
 interface OpenGalleryProps {
   images: string[];
@@ -95,10 +96,19 @@ export const WebProvider = ({ children }: WebProviderProps) => {
     setImageCurrentIndex(0);
   };
 
+  const WhatsAppClick = async () => {
+    window.dataLayer = window.dataLayer || [];
 
-   const WhatsAppClick = async () => {
+    window.dataLayer.push({
+      event: "whatsapp_click",
+      button_text: "WhatsApp",
+      phone_number: "+917447708848",
+      page_location: window.location.href,
+      page_path: window.location.pathname,
+    });
+
     const enCodedText =
-    "Hello Team, I would like to enquire about booking a stay at The Acacia Morjim Goa. Please share room availability and best offers. Thank you.";
+      "Hello Team, I would like to enquire about booking a stay at The Acacia Resort and Spa Morjim GoaResort and Spa Morjim GoaMorjim Goa. Please share room availability and best offers. Thank you.";
     try {
       const payload = {
         widget: "whatsapp",
@@ -106,7 +116,7 @@ export const WebProvider = ({ children }: WebProviderProps) => {
         hid: "56369483",
         pageUrl: window.location.href,
         websiteName: window.location.hostname,
-        phoneNumber: "+917410112893",
+        phoneNumber: "+917447708848",
         message: enCodedText,
       };
 
@@ -118,7 +128,7 @@ export const WebProvider = ({ children }: WebProviderProps) => {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(payload),
-        }
+        },
       );
 
       const data = await response.json();
@@ -136,7 +146,7 @@ export const WebProvider = ({ children }: WebProviderProps) => {
     <WebContext.Provider
       value={{
         WhatsAppClick,
-        
+
         isOpenNavBar,
         setIsOpenNavBar,
 

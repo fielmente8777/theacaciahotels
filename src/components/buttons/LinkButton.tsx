@@ -25,12 +25,15 @@ const LinkButton: React.FC<LinkButtonProps> = ({
   calendarIcon = false,
   ...props
 }) => {
-  const {WhatsAppClick} = useWebContext();    
+  const { WhatsAppClick } = useWebContext();
   return (
     <>
       {href === "whatsapp" ? (
         <button
           onClick={WhatsAppClick}
+          id="whatsapp-button"
+          data-gtm="whatsapp"
+          aria-label={label}
           className={`flex items-center gap-2 border w-fit px-4 py-2 hover:scale-95 transition-all duration-300 ease-in-out hover:scale-x-105 active:scale-95 ${className}`}
           {...props}
         >

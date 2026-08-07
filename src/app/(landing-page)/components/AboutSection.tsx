@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/typography";
 import Image from "next/image";
 
 interface Props {
+  subTitle?: string;
   image: string;
   title: string;
   description: string[];
@@ -14,6 +15,7 @@ interface Props {
 }
 
 const AboutSection: React.FC<Props> = ({
+  subTitle,
   image,
   title,
   description,
@@ -31,7 +33,10 @@ const AboutSection: React.FC<Props> = ({
         />
       </div>
       <div className="flex flex-col gap-4">
-        <SectionHeading title={title} />
+        <div className="">
+          <p className="text-primary uppercase tracking-wider text-lg font-mediuma">{subTitle}</p>
+          <SectionHeading title={title} />
+        </div>
         <div className="w-full relative aspect-4/3 lg:hidden">
           <Image
             src={image}
@@ -55,7 +60,7 @@ const AboutSection: React.FC<Props> = ({
                 {...button}
                 target={i !== 2 ? "_blank" : "_self"}
                 rel="noopener noreferrer"
-                className="bg-primary border-none rounded-sm max-md:w-full justify-center"
+                className="bg-primary text-white border-none rounded-sm max-md:w-full justify-center"
                 whatsAppIcon={i === 1}
                 callIcon={i === 0}
                 calendarIcon={i === 2}

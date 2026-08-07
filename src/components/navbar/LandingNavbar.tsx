@@ -17,7 +17,7 @@ const LandingNavbar = () => {
             <div className="relative aspect-4/1.25 w-32 md:w-44">
               <Image
                 src={navData.logo}
-                alt="The Acacia Hotel Logo"
+                alt="The Acacia Resort and Spa Morjim GoaResort and Spa Morjim GoaHotel Logo"
                 fill
                 priority
                 className="object-cover rounded-md"
@@ -29,18 +29,37 @@ const LandingNavbar = () => {
           <ul className="flex items-center gap-2">
             {navData.buttons.map((link, index) => (
               <li key={index} className="flex items-center gap-2">
-                <button
-                  onClick={WhatsAppClick}
-                  // href={link.href}
-                  // target="_blank"
-                  // rel="noopener noreferrer"
-                  className="flex items-center gap-2 rounded-sm bg-primary px-2 md:px-6 py-2 md:py-3  text-white transition-all hover:opacity-90"
-                >
-                  <span className="">
-                    {index === 0 ? <CallIcon /> : <CalendarIcon />}
-                  </span>
-                  <span className="lg:block text-base hidden">{link.label}</span>
-                </button>
+                {link.href === "whatsapp" ? (
+                  <button
+                    aria-label={link.label}
+                    onClick={WhatsAppClick}
+                    id="whatsapp-button"
+                    data-gtm="whatsapp"
+                    className="flex items-center gap-2 rounded-sm bg-primary px-2 md:px-6 py-2 md:py-3  text-white transition-all hover:opacity-90"
+                  >
+                    <span className="">
+                      {index === 0 ? <CallIcon /> : <CalendarIcon />}
+                    </span>
+                    <span className="lg:block text-base hidden">
+                      {link.label}
+                    </span>
+                  </button>
+                ) : (
+                  <Link
+                    aria-label={link.label}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 rounded-sm bg-primary px-2 md:px-6 py-2 md:py-3  text-white transition-all hover:opacity-90"
+                  >
+                    <span className="">
+                      {index === 0 ? <CallIcon /> : <CalendarIcon />}
+                    </span>
+                    <span className="lg:block text-base hidden">
+                      {link.label}
+                    </span>
+                  </Link>
+                )}
               </li>
             ))}
           </ul>

@@ -141,7 +141,7 @@ const LandingFooter = () => {
       <div className="bg-[#3A3939]">
         <Container className="py-4 flex max-md:flex-col items-center gap-3.5 justify-between">
           <div className="md:flex max-md:space-x-2 text-center flex-wrap items-center justify-center gap-2 text-white text-sm">
-            © 2026 THE ACACIA HOTELS. A UNIT OF PALMYRA RESORT PVT LTD.
+            © 2026 Acacia Resort and Spa Morjim Goa. A UNIT OF PALMYRA RESORT PVT LTD.
           </div>
           <p className="text-white!">
             Powered by{" "}

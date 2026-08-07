@@ -5,7 +5,7 @@ export const navData = {
 
   buttons: [
     { label: "CALL NOW", href: contact.callCta },
-    { label: "BOOK NOW", href: contact.WhatsappCta },
+    { label: "BOOK NOW", href: "whatsapp" },
   ],
 };
 

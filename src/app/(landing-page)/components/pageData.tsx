@@ -15,9 +15,18 @@ import {
 
 export const landingPageData = {
   bannerSection: {
-    video: "/Acacia-Video-Trimmed.mp4",
-    videoPoster: "/landing-page/poster.png",
-    title: "The Acacia Morjim Goa",
+    title: "Experience <i>Luxury</i>. Stay at Acacia Resort and Spa Morjim Goa",
+    desc:"A Luxury Beach Resort in Goa",
+    images: [
+      "/bnr/DSC02444-1.webp",
+      "/bnr/DSC02541-1.webp",
+      "/bnr/DSC02474-1.webp",
+      "/bnr/DSC02474-1-1.webp",
+      "/bnr/DSC02866-1.webp",
+      "/bnr/DSC02486-1.webp",
+      "/bnr/DSC02994-1.webp",
+      "/bnr/DSC03730-1.webp",
+    ],
   },
 
   formSection: {
@@ -28,10 +37,11 @@ export const landingPageData = {
 
   about: {
     image: "/landing-page/1-IMG_7501.jpg",
-    title: "The Acacia Morjim Goa",
+    subTitle:"About the Luxury Beach Resort in Goa",
+    title: "The Acacia Resort and Spa Morjim Goa",
     description: [
-      "Located in the thick of nature, The Acacia Morjim Goa is a cliff-top resort with a captivating view of the cerulean waters and golden sands of the Arabian Sea.",
-      "Tucked up in Goa’s Morjim area, the resort houses 32 contemporarily designed cottages, an infinity pool with a Jacuzzi, a sea view luxury spa with extensive facilities, a banquet, and a multi-cuisine restaurant with some exceptional Pan-Asian delicacies. The Acacia Morjim Goa has been designed with extreme precision & finesse to serve to warrant you a stay in clover.",
+      "Located in the thick of nature, The Acacia Resort and Spa Morjim Goa is a cliff-top resort with a captivating view of the cerulean waters and golden sands of the Arabian Sea.",
+      "Tucked up in Goa’s Morjim area, the resort houses 32 contemporarily designed cottages, an infinity pool with a Jacuzzi, a sea view luxury spa with extensive facilities, a banquet, and a multi-cuisine restaurant with some exceptional Pan-Asian delicacies. The Acacia Resort and Spa Morjim Goa has been designed with extreme precision & finesse to serve to warrant you a stay in clover.",
     ],
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
@@ -41,7 +51,7 @@ export const landingPageData = {
   },
 
   rooms: {
-    title: "Explore Our Rooms",
+    title: "Explore Luxury Resort Rooms",
     description:
       "Experience comfort and luxury in our elegantly designed rooms and suites, blending modern amenities with coastal charm for romantic escapes and family stays alike.",
 
@@ -154,11 +164,7 @@ export const landingPageData = {
       },
 
       {
-        images: [
-          "/landing-page/premier1.jpg",
-          "/landing-page/premier2.jpg",
-          
-        ],
+        images: ["/landing-page/premier1.jpg", "/landing-page/premier2.jpg"],
 
         title: "Premier Room",
         amenities: [
@@ -210,7 +216,7 @@ export const landingPageData = {
   },
 
   luxuryCottages: {
-    title: "Introducing Our New Luxury Cottages!",
+    title: "Introducing Our New Luxury Resort Cottages!",
     description:
       "Introducing our newest wing of exotic luxury cottages where refined comfort meets breathtaking serenity.",
     images: [
@@ -229,7 +235,7 @@ export const landingPageData = {
   },
 
   amenities: {
-    title: "Acacia Amenities",
+    title: "Resort Amenities",
     cards: [
       { amenityName: "Buffet Breakfast", Icon: <BreakfastIcon /> },
       { amenityName: "Spa", Icon: <SpaIcon /> },
@@ -248,11 +254,11 @@ export const landingPageData = {
   },
 
   gallery: {
-    title: "Gallery",
+    title: "Luxury Resort Gallery",
     images: [
       "/landing-page/Jacuzzi.jpg",
       "/landing-page/SPA-1.jpg",
-      "/landing-page/Spa-Acacia.jpg",
+      "/landing-page/Spa-Acacia Resort and Spa Morjim Goajpg",
       "/landing-page/Spa.jpg",
       "/landing-page/1-IMG_7501.jpg",
       "/landing-page/23.jpg",
@@ -307,7 +313,7 @@ export const landingPageData = {
     image: "/landing-page/Spa.jpg",
     logo: "/landing-page/spa-logo.png",
     description: [
-      "Pamper your mind, body and soul at the Spa Acacia and choose from a diverse range of body treatments to rejuvenate.",
+      "Pamper your mind, body and soul at the 'Spa Acacia' Resort and Spa Morjim Goa and choose from a diverse range of body treatments to rejuvenate.",
 
       "Take yourself on a mystical journey and unwind with the signature Bamboo Balinese body massage. The spa is well-equipped to offer you a synergic blend of therapeutic and rejuvenating treatments based on Asian and western spa techniques.",
 
@@ -351,7 +357,7 @@ export const landingPageData = {
       {
         name: "Awender",
         review:
-          "Stayed for 4 nights in Acacia Morjim. It was a wonderful stay overall. We would definitely be visiting again very soon.",
+          "Stayed for 4 nights in Acacia Resort and Spa Morjim GoaMorjim. It was a wonderful stay overall. We would definitely be visiting again very soon.",
       },
 
       {

@@ -25,7 +25,7 @@ const NearbyAttraction: React.FC<NearbyAttractionProps> = ({
                 {...button}
                 target={i !== 2 ? "_blank" : "_self"}
                 rel="noopener noreferrer"
-                className="bg-primary border-none rounded-sm max-md:w-full justify-center"
+                className="bg-primary text-white border-none rounded-sm max-md:w-full justify-center"
                 whatsAppIcon={i === 1}
                 callIcon={i === 0}
                 calendarIcon={i === 2}

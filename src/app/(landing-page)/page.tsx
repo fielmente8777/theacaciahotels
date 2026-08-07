@@ -1,20 +1,20 @@
-import VideoBanner from "@/components/banners/VideoBanner";
+import ImageBanner from "@/components/banners/ImageBanner";
+import LandingFooter from "@/components/footer/LandingFooter";
 import AboutSection from "./components/AboutSection";
 import Amenities from "./components/Amenities";
 import ExploreRooms from "./components/ExploreRooms";
+import FormSection from "./components/FormSection";
 import Gallery from "./components/Gallery";
 import GuestExperiences from "./components/GuestExperiences";
+import LuxuryCottages from "./components/LuxuryCottages";
 import NearbyAttraction from "./components/NearbyAttraction";
 import Spa from "./components/Spa";
 import { landingPageData } from "./components/pageData";
-import FormSection from "./components/FormSection";
-import LandingFooter from "@/components/footer/LandingFooter";
-import LuxuryCottages from "./components/LuxuryCottages";
 
 export default function LandingPage() {
   return (
     <main>
-      <VideoBanner {...landingPageData.bannerSection} />
+      <ImageBanner {...landingPageData.bannerSection} />
       <FormSection {...landingPageData.formSection} />
       <AboutSection {...landingPageData.about} />
       <ExploreRooms {...landingPageData.rooms} />

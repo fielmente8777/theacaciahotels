@@ -16,11 +16,11 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "The Acacia Morjim Goa | Cliff-Top Resort in Morjim, Goa",
+  title: "The Acacia Resort and Spa Morjim GoaResort and Spa Morjim GoaMorjim Goa | Cliff-Top Resort in Morjim, Goa",
   description:
-    "Located in the thick of nature, The Acacia Morjim Goa is a cliff-top resort with captivating views of the Arabian Sea, luxury rooms, infinity pool, spa, banquet facilities, and multi-cuisine dining in Morjim, Goa.",
+    "Located in the thick of nature, The Acacia Resort and Spa Morjim GoaResort and Spa Morjim GoaMorjim Goa is a cliff-top resort with captivating views of the Arabian Sea, luxury rooms, infinity pool, spa, banquet facilities, and multi-cuisine dining in Morjim, Goa.",
   keywords: [
-    "The Acacia Morjim Goa",
+    "The Acacia Resort and Spa Morjim GoaMorjim Goa",
     "Morjim Goa Resort",
     "Luxury Resort Goa",
     "Cliff Top Resort Goa",
@@ -33,11 +33,11 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: "The Acacia Morjim Goa | Luxury Cliff-Top Resort",
+    title: "The Acacia Resort and Spa Morjim GoaMorjim Goa | Luxury Cliff-Top Resort",
     description:
-      "Enjoy luxury stays, infinity pool, spa experiences, and breathtaking Arabian Sea views at The Acacia Morjim Goa.",
+      "Enjoy luxury stays, infinity pool, spa experiences, and breathtaking Arabian Sea views at The Acacia Resort and Spa Morjim GoaMorjim Goa.",
     url: "",
-    siteName: "The Acacia Morjim Goa",
+    siteName: "The Acacia Resort and Spa Morjim GoaMorjim Goa",
     locale: "en_IN",
     type: "website",
   },

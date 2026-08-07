@@ -94,7 +94,7 @@ const LuxuryCottages: React.FC<LuxuryCottagesProps> = ({
               {...button}
               target={i !== 1 ? "_blank" : "_self"}
               rel="noopener noreferrer"
-              className="bg-primary border-none rounded-sm w-full justify-center"
+              className="bg-primary text-white border-none rounded-sm w-full justify-center"
               whatsAppIcon={i === 0}
               calendarIcon={i === 1}
             />

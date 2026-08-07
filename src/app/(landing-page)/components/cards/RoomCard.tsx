@@ -69,7 +69,7 @@ const RoomCard: React.FC<ExploreRoomsProps["cards"][0]> = ({
                   {...button}
                   target={i !== 1 ? "_blank" : "_self"}
                   rel="noopener noreferrer"
-                  className="bg-primary  text-nowrap border-none rounded-sm w-full justify-center"
+                  className="bg-primary text-white text-nowrap border-none rounded-sm w-full justify-center"
                   callIcon={i === 0}
                 />
               </li>

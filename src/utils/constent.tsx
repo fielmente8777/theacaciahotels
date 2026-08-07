@@ -1,6 +1,6 @@
 export const enCodeText = encodeURIComponent(`Hello Team,
 
-I would like to enquire about booking a stay at The Acacia Morjim Goa.
+I would like to enquire about booking a stay at The Acacia Resort and Spa Morjim GoaResort and Spa Morjim GoaMorjim Goa.
 
 Please share room availability and best offers.
 
@@ -8,8 +8,13 @@ Thank you.`);
 
 export const contact = {
   email: "reservations@theacaciahotels.com",
-  mapUrl: "",
-  phone: ["+91 78880 69977","+917447708848"],
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.0141865876585!2d73.7241149!3d15.6386485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfef19cc8d109f%3A0x74432279d77cfd58!2sThe%20Acacia%20Morjim%20Goa!5e1!3m2!1sen!2sin!4v1783674190551!5m2!1sen!2sin",
+  phone: [
+    // "+91 78880 69977",
+    //  "+917447708848",
+     "+91 74477 08848"
+    ],
   address: "H.No 737, Main Morjim-Ashvem Road, Goa – 403512",
   addressLink: "",
   socialMedia: {
@@ -17,7 +22,7 @@ export const contact = {
     instagram: "https://www.instagram.com/acaciamorjim/",
     youtube: "https://www.youtube.com/@TheAcaciaHotelsandVillas",
   },
-  callCta: `tel:+917888069977`,
+  callCta: `tel:+917447708848`,
   WhatsappCta: `https://wa.me/+917447708848?text=${enCodeText}`,
   formDomain: "acaciahotel",
   // formDomain: "testmulti", //for testing
