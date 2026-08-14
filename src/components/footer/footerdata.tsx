@@ -64,7 +64,7 @@ export const socialData = [
 ];
 
 export const footerData: FooterData = {
-  logo: "/Logo.png",
+  logo: "/bg.jpg",
   cta: [
     {
       label: "call now",

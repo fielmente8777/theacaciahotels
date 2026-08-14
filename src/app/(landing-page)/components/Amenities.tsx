@@ -9,7 +9,7 @@ const Amenities: React.FC<AmenitiesProps> = ({ title, cards, buttons }) => {
     <SectionWithContainer containerClassName="md:space-y-12 space-y-6">
       <SectionHeading title={title} textCenter />
       <div className="md:space-y-12 space-y-6">
-        <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 lg:gap-y-10">
+        <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-y-10">
           {cards.map((card, index) => (
             <AmenityCard key={index} {...card} />
           ))}

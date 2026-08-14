@@ -5,7 +5,7 @@ const AmenityCard: React.FC<AmenitiesProps["cards"][0]> = ({
     amenityName
 }) => {
     return (
-        <div className="flex flex-col items-center gap-2">
+        <div className="py-6 flex flex-col max-w-[300px] w-full items-center gap-2">
             <div>
                 {Icon}
             </div>

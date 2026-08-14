@@ -1,7 +1,7 @@
 import { contact } from "@/utils/constent";
 
 export const navData = {
-  logo: "/logo-1.png",
+  logo: "/bg.jpg",
 
   buttons: [
     { label: "CALL NOW", href: contact.callCta },
@@ -10,7 +10,7 @@ export const navData = {
 };
 
 export const WebsiteNavData = {
-  logo: "/images/logo.png",
+  logo: "/bg.png",
   links: [
     { label: "Home", href: "/" },
     { label: "About", href: "/about-us/" },

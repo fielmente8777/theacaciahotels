@@ -3,23 +3,21 @@ import {
   BanquetIcon,
   BedIcon,
   BreakfastIcon,
-  JacuzziIcon,
   RestaurantIcon,
   RoomServiceIcon,
   SleepsIcon,
   SpaIcon,
   SQFTIcon,
   SwimIcon,
-  WifiIcon,
+  WifiIcon
 } from "@/utils/icons";
 
 export const landingPageData = {
   bannerSection: {
     title: "Experience <i>Luxury</i>. Stay at Acacia Resort and Spa Morjim Goa",
-    desc:"A Luxury Beach Resort in Goa",
+    desc: "",
     images: [
-      "/bnr/DSC02444-1.webp",
-      "/bnr/1_11zon.jpg",
+      // "/bnr/DSC02444-1.webp",
       "/bnr/DSC02541-1.webp",
       "/bnr/DSC02474-1-1.webp",
       "/bnr/DSC02866-1.webp",
@@ -38,11 +36,11 @@ export const landingPageData = {
 
   about: {
     image: "/landing-page/1-IMG_7501.jpg",
-    subTitle:"About the Luxury Beach Resort in Goa",
-    title: "The Acacia Resort and Spa Morjim Goa",
+    subTitle: "About Us",
+    title: "Acacia Resort and Spa Morjim Goa",
     description: [
-      "Located in the thick of nature, The Acacia Resort and Spa Morjim Goa is a cliff-top resort with a captivating view of the cerulean waters and golden sands of the Arabian Sea.",
-      "Tucked up in Goa’s Morjim area, the resort houses 32 contemporarily designed cottages, an infinity pool with a Jacuzzi, a sea view luxury spa with extensive facilities, a banquet, and a multi-cuisine restaurant with some exceptional Pan-Asian delicacies. The Acacia Resort and Spa Morjim Goa has been designed with extreme precision & finesse to serve to warrant you a stay in clover.",
+      "Located in the thick of nature, Acacia Resort and Spa Morjim Goa is a resort with a captivating view of the cerulean waters and golden sands of the Arabian Sea.",
+      "Tucked up in Goa’s Morjim area, the resort houses 32 contemporarily designed cottages, a sea view luxury spa with extensive facilities, a banquet, and a multi-cuisine restaurant with some exceptional Pan-Asian delicacies. Acacia Resort and Spa Morjim Goa has been designed with extreme precision & finesse to serve to warrant you a stay in clover.",
     ],
     buttons: [
       { label: "CALL NOW", href: contact.callCta },
@@ -52,7 +50,7 @@ export const landingPageData = {
   },
 
   rooms: {
-    title: "Explore Luxury Resort Rooms",
+    title: "Explore Resort Rooms",
     description:
       "Experience comfort and luxury in our elegantly designed rooms and suites, blending modern amenities with coastal charm for romantic escapes and family stays alike.",
 
@@ -221,13 +219,19 @@ export const landingPageData = {
     description:
       "Introducing our newest wing of exotic luxury cottages where refined comfort meets breathtaking serenity.",
     images: [
-      "/landing-page/NEW-LUXURY-COTTAGE.png",
-      "/landing-page/NEW-LUXURY-COTTAGE-2.png",
-      "/landing-page/NEW-LUXURY-COTTAGE-3.png",
-      "/im-2.jpeg",
-      "/im-3.jpeg",
+      // "/landing-page/NEW-LUXURY-COTTAGE.png",
+      // "/landing-page/NEW-LUXURY-COTTAGE-2.png",
+      // "/landing-page/NEW-LUXURY-COTTAGE-3.png",
+      // "/im-2.jpeg",
+      // "/im-3.jpeg",
       // "/im-4.jpeg",
       // "/im-6.jpeg",
+      "/landing-page/3.jpg",
+      "/landing-page/6.jpg",
+      "/landing-page/7.jpg",
+      "/landing-page/8.jpg",
+      "/landing-page/11.jpg",
+      "/landing-page/13.jpg",
     ],
     buttons: [
       { label: "ENQUIRE NOW", href: "whatsapp" },
@@ -244,7 +248,7 @@ export const landingPageData = {
       { amenityName: "Multicuisine Restaurant", Icon: <RestaurantIcon /> },
       { amenityName: "24 x 7 Room Service", Icon: <RoomServiceIcon /> },
       { amenityName: "Swimming Pool", Icon: <SwimIcon /> },
-      { amenityName: "Jacuzzi", Icon: <JacuzziIcon /> },
+      // { amenityName: "Jacuzzi", Icon: <JacuzziIcon /> },
       { amenityName: "Banquet", Icon: <BanquetIcon /> },
     ],
     buttons: [
@@ -258,13 +262,13 @@ export const landingPageData = {
     title: "Luxury Resort Gallery",
     images: [
       "/landing-page/Jacuzzi.jpg",
-      "/landing-page/SPA-1.jpg",
-      "/landing-page/Spa-Acacia.jpg",
+      // "/landing-page/SPA-1.jpg",
+      // "/landing-page/Spa-Acacia Resort and Spa Morjim Goajpg",
       "/landing-page/Spa.jpg",
       "/bnr/3_11zon.jpg",
       "/landing-page/23.jpg",
       "/landing-page/26-IMG_8284.jpg",
-      "/im-1.jpeg",
+      // "/im-1.jpeg",
       // "/im-2.jpeg",
       // "/im-3.jpeg",
       // "/im-4.jpeg",
@@ -276,7 +280,7 @@ export const landingPageData = {
       "/landing-page/Breakfast.jpg",
       "/landing-page/COVER.jpg",
       // "/landing-page/DELUXE---VIEW.jpg",
-      "/landing-page/DELUXE-BATHROOM.jpg",
+      // "/landing-page/DELUXE-BATHROOM.jpg",
       // "/landing-page/DELUXE-ROOM.jpg",
       "/landing-page/FACADE.jpg",
       "/landing-page/IMG_7461.jpg",
@@ -293,13 +297,20 @@ export const landingPageData = {
       // "/landing-page/Rectangle-34.png",
       // "/landing-page/Rectangle-624321.png",
       "/landing-page/Rectangle-82.png",
-      "/landing-page/Restaurant-Upper-Deck-.jpg",
+      // "/landing-page/Restaurant-Upper-Deck-.jpg",
 
       // "/landing-page/SUPERIOR-.jpg",
       "/landing-page/superior-bathroom.jpg",
       // "/landing-page/SUPERIOR-CLASSIC.jpg",
       "/landing-page/Swimming-Pool.jpg",
       "/landing-page/Toast.jpg",
+      "/landing-page/1.jpg",
+      "/landing-page/2.jpg",
+      "/landing-page/4.jpg",
+      "/landing-page/5.jpg",
+      "/landing-page/9.jpg",
+      "/landing-page/10.jpg",
+      "/landing-page/12.jpg",
       // "/landing-page/TWIN-ROOM.jpg",
       // "/landing-page/TWIN.jpg",
     ],

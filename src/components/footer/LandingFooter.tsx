@@ -14,7 +14,7 @@ const LandingFooter = () => {
           <div className=" flex flex-col gap-8 md:max-w-85">
             <div
               className={`relative 
-                  w-full aspect-[4/.5] md:aspect-[4/.8]`}
+                  w-full aspect-[4/.5] md:aspect-[4/1.5]`}
             >
               <Image
                 src={footerData.logo}
